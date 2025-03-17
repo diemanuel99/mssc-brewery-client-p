@@ -24,6 +24,10 @@ repositories {
 }
 
 dependencies {
+    //http
+    implementation("org.apache.httpcomponents.client5:httpclient5-fluent:5.4.2")
+    implementation("org.apache.httpcomponents.client5:httpclient5:5.4.2")
+    //implementation("org.apache.httpcomponents:httpasyncclient:4.1.5")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework.boot:spring-boot-starter-web")
     compileOnly("org.projectlombok:lombok")
